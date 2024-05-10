@@ -4,6 +4,8 @@ interface Props {
 }
 
 const { title } = Astro.props;
+
+import '@fontsource/luckiest-guy';
 ---
 
 <!doctype html>
@@ -24,4 +26,8 @@ const { title } = Astro.props;
   html {
 	@apply text-white bg-primary 
   }
+
+  body {
+  font-family: 'Luckiest Guy', system-ui;
+}
 </style>

@@ -2,11 +2,15 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': ^5.1.0
+  '@fontsource/luckiest-guy': ^5.0.19
+  '@fontsource/yeseva-one': ^5.0.20
   astro: ^4.8.2
   tailwindcss: ^3.4.3
 
 dependencies:
   '@astrojs/tailwind': 5.1.0_qnrmkiskfnkuu4ph3vrp73wy3a
+  '@fontsource/luckiest-guy': 5.0.19
+  '@fontsource/yeseva-one': 5.0.20
   astro: 4.8.2
   tailwindcss: 3.4.3
 
@@ -744,6 +748,14 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource/luckiest-guy/5.0.19:
+    resolution: {integrity: sha512-d7GeB7lZm2jp3NKm95l5uIDyutt3vOYzu6tkDfwpvi6UDR3NbyUe8UR30sF6O9LXf4qGAHvquyNVw/FfhLpF5g==}
+    dev: false
+
+  /@fontsource/yeseva-one/5.0.20:
+    resolution: {integrity: sha512-jC2wa/8gdTqyG0W7wCn/Nrp9nUcAlyomtpJ7mwNFhgbKmnt9fCbi/8dnBdclAy6RIHw8tdqehe2VExi2hOZ9qA==}
+    dev: false
 
   /@img/sharp-darwin-arm64/0.33.3:
     resolution: {integrity: sha512-FaNiGX1MrOuJ3hxuNzWgsT/mg5OHG/Izh59WW2mk1UwYHUwtfbhk5QNKYZgxf0pLOhx9ctGiGa2OykD71vOnSw==}
