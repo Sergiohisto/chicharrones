@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource/luckiest-guy": "^5.0.19",
+    "@fontsource/roboto-slab": "^5.0.20",
     "@fontsource/yeseva-one": "^5.0.20",
     "astro": "^4.8.2",
     "tailwindcss": "^3.4.3"

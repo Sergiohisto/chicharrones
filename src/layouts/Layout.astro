@@ -5,7 +5,8 @@ interface Props {
 
 const { title } = Astro.props;
 
-import '@fontsource/luckiest-guy';
+//import '@fontsource/luckiest-guy';
+import "@fontsource/roboto-slab";
 ---
 
 <!doctype html>
@@ -24,10 +25,10 @@ import '@fontsource/luckiest-guy';
 </html>
 <style is:global>
   html {
-	@apply text-white bg-accent
+    @apply text-white bg-gray-700;
   }
 
   body {
-  font-family: 'Luckiest Guy', system-ui;
-}
+    font-family: "Roboto Slab", system-ui;
+  }
 </style>
